@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Playfair Display',
+    serif;
+    font-weight: 500;
+}
+.list-header {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 80px;
+}
+.list-header i {
+    font-size: 42px;
+    color: #ff0060;
+    margin-right: 10px;
+}
+.list-header h1{
+    font-weight: 600;
+
+}
+.list-header h1 span{
+    color: #ff0060;
+    font-family: 'Great Vibes',
+    cursive;
+    font-weight: 600;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff0060;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #ff006252;
+}
+.btn-primary{
+    background-color: #ff0060;
+    border: 1px solid #ff0060;
+    transition:0.2s;
+    margin-bottom: 15px;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -ms-transition:0.2s;
+    -o-transition:0.2s;
+}
+.btn-primary:hover{
+    background-color: #e70159;
+    border: 1px solid #e70159;
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #d30051;
+   border: 1px solid #d30051;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #d30051;
+    border-color: #d30051;
+    box-shadow: 0 0 0 .2rem #d300513f !important;
+    outline: none;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #d30051;
+}
+td i{
+    color: #d30051;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+td i:hover {
+    box-shadow: 5px 5px 10px #ff03633f;
+
+}
+
+td i:focus:focus-visible {
+    transform: scale(0.90);
+}
+.far.fa-check-circle {
+    margin-right: 10px;
+}
